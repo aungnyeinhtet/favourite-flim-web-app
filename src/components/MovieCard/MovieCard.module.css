@@ -1,0 +1,31 @@
+.movie_card {
+  @apply bg-cover bg-top bg-no-repeat pt-[160%] relative rounded-2xl;
+}
+
+.card_btn {
+  @apply absolute top-[50%] scale-0 left-[50%] text-white -translate-x-[50%] -translate-y-[50%] bg-RED-TEXT block px-4 py-2 rounded-xl uppercase text-sm font-semibold duration-[0.5s] ease-linear transition-all;
+}
+
+.movie_card:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transform: scale(0);
+  transition: all ease 0.5s;
+  border-radius: 1rem;
+}
+
+.movie_card:hover:before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.movie_card:hover .card_btn {
+  transform: scale(1);
+  transform: translate(-50%, -50%);
+}
