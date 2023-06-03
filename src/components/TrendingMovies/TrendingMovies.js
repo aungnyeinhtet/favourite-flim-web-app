@@ -48,7 +48,7 @@ const TrendingMovies = () => {
   return (
     <section className="py-10 bg-PRIMARY-BG h-full">
       <Container>
-        <h1 className="text-3xl font-bold text-PRIMARY-TEXT capitalize mb-6">
+        <h1 className="text-3xl font-bold text-TYPOGRAPHY capitalize mb-6">
           Now Playing
         </h1>
         <div className="flex lg:flex-row flex-col items-center gap-5">
@@ -79,8 +79,9 @@ const TrendingMovies = () => {
                     <div
                       onClick={() => setMovieId(item.id)}
                       key={item.id}
-                      className={`px-4 flex flex-row rounded-lg py-2 hover:bg-HOVER-BG cursor-pointer space-x-4 ${item.id === movieId ? "bg-HOVER-BG" : ""
-                        }`}
+                      className={`px-4 flex flex-row rounded-lg py-2 hover:bg-HOVER-BG cursor-pointer space-x-4 ${
+                        item.id === movieId ? "bg-HOVER-BG" : ""
+                      }`}
                     >
                       <img
                         src={apiConfig.w500Image(
@@ -92,10 +93,10 @@ const TrendingMovies = () => {
                         className="w-1/5 object-fill rounded-xl"
                       />
                       <div>
-                        <h1 className="font-semibold text-xl">
+                        <h1 className="font-semibold text-xl text-TYPOGRAPHY">
                           {item.title || item.name || item.original_title}
                         </h1>
-                        <p className="text-gray-200">
+                        <p className="text-PARAGRAPH">
                           {item.overview.substring(0, 200)}
                           {"..."}
                         </p>

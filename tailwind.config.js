@@ -8,6 +8,9 @@ module.exports = {
         "PRIMARY-TEXT": "#D0D5E1",
         "YELLOW-TEXT": "#DCF836",
         "RED-TEXT": "#DD003F",
+        TYPOGRAPHY: "#FBFBFB",
+        PARAGRAPH: "#CACACA",
+        GRAY_COLOR: "#E1E1E1",
       },
       backgroundColor: {
         "SECONDARY-BG": "#020D18",

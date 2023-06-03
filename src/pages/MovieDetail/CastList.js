@@ -10,10 +10,10 @@ const CastList = ({ items, category, id }) => {
   return (
     <div className="cast_list mt-4 w-full">
       <div className="flex flex-row justify-between items-center mb-4 ">
-        <h1 className="font-bold text-PRIMARY-TEXT text-2xl">Top Cast</h1>
+        <h1 className="font-bold text-TYPOGRAPHY text-2xl">Top Cast</h1>
         {items.length > 10 && (
           <Link to={`/view-all-cast/${category}/${id}`}>
-            <div className="text-lg font-semibold text-PRIMARY-TEXT py-2 px-6 rounded-full border-2 border-PRIMARY-TEXT">
+            <div className="text-lg font-semibold text-TYPOGRAPHY py-2 px-6 rounded-full border-2 border-TYPOGRAPHY">
               View More
             </div>
           </Link>

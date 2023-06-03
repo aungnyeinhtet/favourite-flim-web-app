@@ -3,7 +3,7 @@
 }
 
 .card_btn {
-  @apply absolute top-[50%] scale-0 left-[50%] text-white -translate-x-[50%] -translate-y-[50%] bg-RED-TEXT block px-4 py-2 rounded-xl uppercase text-sm font-semibold duration-[0.5s] ease-linear transition-all;
+  @apply absolute top-[50%] scale-0 left-[50%] -translate-x-[50%] -translate-y-[50%] bg-RED-TEXT block px-4 py-2 rounded-xl uppercase text-sm font-semibold duration-[0.5s] ease-linear transition-all;
 }
 
 .movie_card:before {

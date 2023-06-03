@@ -94,7 +94,7 @@ const Movies = ({ category }) => {
           <div className="flex flex-row items-center justify-center mt-10">
             <Button
               onClick={loadMoreHandler}
-              className="bg-RED-TEXT font-semibold text-PRIMARY-TEXT py-3 px-6 rounded-full transition-all duration-150 ease-linear hover:bg-transparent hover:text-RED-TEXT border-2 border-RED-TEXT hover:scale-90"
+              className="bg-RED-TEXT font-semibold text-TYPOGRAPHY py-3 px-6 rounded-full transition-all duration-150 ease-linear hover:bg-transparent hover:text-RED-TEXT border-2 border-RED-TEXT hover:scale-90"
             >
               LOAD MORE
             </Button>

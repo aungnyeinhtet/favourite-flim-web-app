@@ -27,7 +27,7 @@ const ViewAllVideo = () => {
     <FrontLayout className={false}>
       <section className="py-32 bg-PRIMARY-BG">
         <Container>
-          <h1 className="text-PRIMARY-TEXT text-center text-4xl font-bold mb-6">
+          <h1 className="text-TYPOGRAPHY text-center text-4xl font-bold mb-6">
             Trailers
           </h1>
           <div className="flex flex-col gap-6">
@@ -45,7 +45,7 @@ const Videos = (props) => {
       {items &&
         items.map((item) => (
           <div className="w-full cursor-pointer h-full" key={item.id}>
-            <h1 className="font-semibold text-lg text-PRIMARY-TEXT mb-2">
+            <h1 className="font-semibold text-lg text-PARAGRAPH mb-2">
               {item.name}
             </h1>
             <iframe

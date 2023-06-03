@@ -29,8 +29,8 @@ const GenresSidebar = ({ category }) => {
     }
   }, [category]);
   return (
-    <aside className="w-full text-PRIMARY-TEXT h-full bg-PRIMARY-BG">
-      <h3 className="p-4 text-center w-full text-2xl font-bold text-PRIMARY-TEXT">
+    <aside className="w-full h-full bg-PRIMARY-BG">
+      <h3 className="p-4 text-center w-full text-2xl font-bold text-TYPOGRAPHY">
         Filter By Genres
       </h3>
       <Stack direction="column">
@@ -48,7 +48,7 @@ const GenresSidebar = ({ category }) => {
             return (
               <Button
                 onClick={() => searchByGenreHandler(link)}
-                className="flex hover:bg-HOVER-BG py-2 hover:text-GOLD-TEXT transition-all ease-linear duration-150 px-4 justify-start
+                className="flex hover:bg-HOVER-BG py-2 text-PARAGRAPH hover:text-GOLD-TEXT transition-all ease-linear duration-150 px-4 justify-start
                 "
                 key={index}
               >

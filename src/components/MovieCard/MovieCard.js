@@ -27,7 +27,7 @@ const MovieCard = (props) => {
               style={{ backgroundImage: `url(${poster})` }}
               className={`${s.movie_card}`}
             >
-              <Button className={s.card_btn}>
+              <Button className={`${s.card_btn} text-TYPOGRAPHY`}>
                 <PlayIcon className="w-8 h-8" />
               </Button>
             </motion.div>
@@ -41,13 +41,13 @@ const MovieCard = (props) => {
                   <StarIcon className="w-6 h-6 text-GOLD-TEXT" />
                 )}
 
-                <p className="text-white text-sm font-semibold">
+                <p className="text-PARAGRAPH text-sm font-semibold">
                   {item.vote_average}
                 </p>
               </div>
             </div>
 
-            <h3 className="text-PRIMARY-TEXT font-semibold text-lg">
+            <h3 className="text-TYPOGRAPHY font-semibold text-lg">
               {item.name || item.title || item.original_title}
             </h3>
           </div>

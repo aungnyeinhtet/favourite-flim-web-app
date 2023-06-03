@@ -11,10 +11,10 @@ const VideoList = ({ items, category, id }) => {
       {items && items.length > 0 && (
         <div className="video_grid">
           <div className="flex flex-row justify-between items-center mb-4 ">
-            <h1 className="font-bold text-PRIMARY-TEXT text-4xl">Videos</h1>
+            <h1 className="font-bold text-TYPOGRAPHY text-4xl">Videos</h1>
             {items.length > 10 && (
               <Link to={`/view-all-video/${category}/${id}`}>
-                <div className="text-lg font-semibold text-PRIMARY-TEXT py-2 px-6 rounded-full border-2 border-PRIMARY-TEXT">
+                <div className="text-lg font-semibold text-TYPOGRAPHY py-2 px-6 rounded-full border-2 border-TYPOGRAPHY">
                   View More
                 </div>
               </Link>
@@ -36,7 +36,7 @@ const VideoList = ({ items, category, id }) => {
                       src={`https://www.youtube.com/embed/${item.key}`}
                       title="trailer"
                     />
-                    <h1 className="font-semibold text-lg text-PRIMARY-TEXT mt-2 p-2">
+                    <h1 className="font-semibold text-lg text-TYPOGRAPHY mt-2 p-2">
                       {item.name}
                     </h1>
                   </div>

@@ -92,7 +92,7 @@ const HeroSlideItem = (props) => {
       <div className="flex max-w-7xl mx-auto px-6 py-10 flex-row justify-center items-center">
         <div className="lg:w-[55%] w-full pr-6 z-20">
           <h1
-            className={`font-bold text-5xl text-white my-6  transition-all duration-[0.3s] ${
+            className={`font-bold text-5xl text-TYPOGRAPHY my-6  transition-all duration-[0.3s] ${
               active
                 ? "opacity-1 translate-y-0"
                 : "opacity-0 translate-y-[-100px]"
@@ -101,7 +101,7 @@ const HeroSlideItem = (props) => {
             {item.title || item.name}
           </h1>
           <p
-            className={`text-gray-200 text-md  transition-all duration-[0.6s] ${
+            className={`text-PARAGRAPH text-md  transition-all duration-[0.6s] ${
               active
                 ? "opacity-1 translate-y-0"
                 : "opacity-0 translate-y-[-100px]"
@@ -111,7 +111,7 @@ const HeroSlideItem = (props) => {
           </p>
 
           <div
-            className={`flex flex-row items-center text-gray-200 space-x-3  transition-all duration-[1s]  ${
+            className={`flex flex-row items-center text-PARAGRAPH space-x-3  transition-all duration-[1s]  ${
               active
                 ? "opacity-1 translate-y-0"
                 : "opacity-0 translate-y-[-100px]"
@@ -136,9 +136,9 @@ const HeroSlideItem = (props) => {
           >
             <Button
               onClick={getVideosHandler}
-              className="text-white flex flex-row items-center py-3 px-6 border-2 border-white hover:border-RED-TEXT text-sm font-semibold rounded-full uppercase hover:bg-RED-TEXT duration-150 ease-linear transition-all group"
+              className="text-TYPOGRAPHY flex flex-row items-center py-3 px-6 border-2 border-TYPOGRAPHY hover:border-RED-TEXT text-sm font-semibold rounded-full uppercase hover:bg-RED-TEXT duration-150 ease-linear transition-all group"
             >
-              <PlayIcon className="w-6 h-6 text-RED-TEXT mr-2 group-hover:text-white transition-all ease-linear duration-150" />
+              <PlayIcon className="w-6 h-6 text-RED-TEXT mr-2 group-hover:text-TYPOGRAPHY transition-all ease-linear duration-150" />
               Watch Trailer
             </Button>
             <Button

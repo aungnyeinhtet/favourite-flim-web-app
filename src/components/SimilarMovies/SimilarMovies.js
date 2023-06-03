@@ -17,7 +17,7 @@ const SimilarMovies = ({ id, category }) => {
   return (
     <section className="py-10">
       <Container>
-        <h1 className="lg:text-4xl text-3xl font-bold text-PRIMARY-TEXT">
+        <h1 className="lg:text-4xl text-3xl font-bold text-TYPOGRAPHY">
           More like this
         </h1>
         <MovieList items={items} category={category} />

@@ -7,7 +7,7 @@ import Logo from "../../components/Logo/Logo";
 const Footer = () => {
   return (
     <div
-      className="py-[2rem] relative bg-center bg-cover bg-no-repeat text-white"
+      className="py-[2rem] relative bg-center bg-cover bg-no-repeat text-TYPOGRAPHY"
       style={{ backgroundImage: `url(${footerBg})` }}
     >
       <Container>

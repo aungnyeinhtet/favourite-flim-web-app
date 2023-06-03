@@ -29,7 +29,7 @@ const Navbar = ({ transparent }) => {
   return (
     <header
       ref={headerRef}
-      className={`fixed top-0  w-full  left-0 text-white py-10 z-50 ${
+      className={`fixed top-0 w-full left-0 py-10 z-50 ${
         transparent ? "" : "bg-SECONDARY-BG"
       }`}
     >

@@ -29,14 +29,14 @@ const MoviesRow = () => {
     <section className="py-10 bg-SECONDARY-BG">
       <Container>
         <div className="flex flex-col gap-6">
-          <h1 className="text-3xl font-bold text-PRIMARY-TEXT">Movies</h1>
+          <h1 className="text-3xl font-bold text-TYPOGRAPHY">Movies</h1>
           <div className="flex flex-row space-x-10">
             <Button
               onClick={() => setFilterByMovies(movieType.upcoming)}
               className={`text-lg font-semibold hover:text-GOLD-TEXT transition-colors duration-150 ease-linear capitalize ${
                 filterByMovies === movieType.upcoming
                   ? "text-GOLD-TEXT"
-                  : "text-PRIMARY-TEXT"
+                  : "text-TYPOGRAPHY"
               }`}
             >
               #Upcomming
@@ -46,7 +46,7 @@ const MoviesRow = () => {
               className={`text-lg  font-semibold hover:text-GOLD-TEXT transition-colors duration-150 ease-linear capitalize  ${
                 filterByMovies === movieType.popular
                   ? "text-GOLD-TEXT"
-                  : "text-PRIMARY-TEXT"
+                  : "text-TYPOGRAPHY"
               }`}
             >
               #Popular
@@ -56,7 +56,7 @@ const MoviesRow = () => {
               className={`text-lg  font-semibold hover:text-GOLD-TEXT transition-colors duration-150 ease-linear capitalize  ${
                 filterByMovies === movieType.top_rated
                   ? "text-GOLD-TEXT"
-                  : "text-PRIMARY-TEXT"
+                  : "text-TYPOGRAPHY"
               }`}
             >
               #Top Rated

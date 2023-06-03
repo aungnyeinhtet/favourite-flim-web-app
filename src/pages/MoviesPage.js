@@ -51,7 +51,7 @@ const MoviesPage = () => {
                 className="cursor-pointer flex-1 ml-10 lg:hidden flex"
                 onClick={openGenre}
               >
-                <Bars3Icon className="w-10 h-10 text-PRIMARY-TEXT" />
+                <Bars3Icon className="w-10 h-10 text-TYPOGRAPHY" />
               </div>
             </div>
           </div>

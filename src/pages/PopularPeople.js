@@ -43,7 +43,7 @@ const PopularPeople = () => {
     <FrontLayout>
       <section className="bg-PRIMARY-BG pt-32 pb-20">
         <Container>
-          <h1 className="text-PRIMARY-TEXT font-bold text-4xl text-center  mb-10">
+          <h1 className="text-TYPOGRAPHY font-bold text-4xl text-center  mb-10">
             Popular People
           </h1>
           <Grid>
@@ -67,7 +67,7 @@ const PopularPeople = () => {
                         style={{ backgroundImage: `url(${bg})` }}
                         className="bg-cover rounded-xl bg-center bg-no-repeat pt-[140%]"
                       />
-                      <h1 className="text-PRIMARY-TEXT mt-2 font-semibold text-lg">
+                      <h1 className="text-TYPOGRAPHY mt-2 font-semibold text-lg">
                         {person.name}
                       </h1>
                     </Link>
@@ -79,7 +79,7 @@ const PopularPeople = () => {
             <div className="flex flex-row justify-center items-center mt-20">
               <Button
                 onClick={LoadMore}
-                className="border-2 border-PRIMARY-TEXT text-PRIMARY-TEXT rounded-full py-3 px-8 font-semibold text-lg hover:bg-RED-TEXT duration-150 transition-all ease-linear"
+                className="border-2 border-TYPOGRAPHY text-TYPOGRAPHY rounded-full py-3 px-8 font-semibold text-lg hover:bg-RED-TEXT duration-150 transition-all ease-linear"
               >
                 Load More...
               </Button>
